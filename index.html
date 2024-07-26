@@ -1,70 +1,150 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>Michael Beall's Github Home Page</title>
-    </head>
-    <body>
-        <h1>Welcome to Michael Beall's personal github page.</h1>
+	<head>
+		<title>Michael Beall</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-        <!--Problem Statement-->
-        <section class = "problem">
-            <a href = "docs/CSCE190 Problem Statement.pdf"><img src="pics/gaming.PNG" width="500"></a>
-            <section class = "prob_details">
-                <a href = "docs/CSCE190 Problem Statement.pdf"><h2>Problem Statement</h2></a>
-                <p>Facebook is taking a monopoly on social media platforms where people with public profiles can communicate to each other. Some people feel uncomfortable with that so we will propose our own app.</p>
-            </section>
-        </section>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-        <!--Affinity Diagram-->
-        <section class = "problem">
-            <a href = "docs/Affinity Diagram.pdf"><img src="pics/Affinity Diagram.PNG" width="500"></a>
-            <section class = "prob_details">
-                <a href = "docs/Affinity Diagram.pdf"><h2>Affinity Diagram</h2></a>
-                <p>Our team has compiled the main details of our new app into this diagram, take a look!</p>
-            </section>
-        </section>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Michael Beall</strong>.</h1>
+							</header>
+							<p>I'm a student at the University of South Carolina studying computer engineering. I plan to do full-stack software development. Welcome to my website!</p>
+							<a href="#education" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-        <!--Personas PDF-->
-        <section class = "problem">
-            <a href = "docs/Personas.pdf"><img src="pics/Personas.PNG" width="500"></a>
-            <section class = "persona_details">
-                <a href = "docs/Personas.pdf"><h2>Persona List</h2></a>
-                <p>Our team has developed a list of personas that we believe our customers can relate to.</p>
-            </section>
-        </section>
+		<!-- Education -->
+			<article id="education" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>University of South Carolina</h2>
+						<p>Some of the work I've done in my classes</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-comments"></span>
+								<h3>Capstone Project</h3>
+								<p>I worked on the notifications and settings page of our task scheduling iOS App, made in Swift and using Google Firebase.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p></p>
+					</footer>
+				</div>
+			</article>
 
-        <!--Storyboards-->
-        <section class = "problem">
-            <a href = "docs/Storyboard_CoBC.pdf"><img src="pics/Storyboard_CoBC.PNG" width="500"></a>
-            <section class = "prob_details">
-                <a href = "docs/Storyboard_CoBC.pdf"><h2>Storyboard</h2></a>
-                <p>Our team has assembled some possible scenarios regarding our project.</p>
-            </section>
-        </section>
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Fellowship Program</h2>
+						<p>Currently: I'm in the Headstarter AI Fellowship Program! Soon I'll be uploading my projects I've made.</p>
+					</header>
+					<footer>
+						<p>Curious to know more?</p>
+						<a href="#contact" class="button large scrolly">Contact me</a>
+					</footer>
+				</div>
+			</article>
 
-        <!--Sketches-->
-        <section class = "problem">
-            <a href = "docs/Sketches.pdf"><img src="pics/Sketches.PNG" width="500"></a>
-            <section class = "sketch_details">
-                <a href = "docs/Sketches.pdf"><h2>Sketches</h2></a>
-                <p>This is going to be the basic layout of the app.</p>
-            </section>
-        </section>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Have me make stuff for you.</h2>
+						<p>Please fill out the form below.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
 
-        <!--Prototype-->
-        <section class = "problem">
-            <a href = "https://www.youtube.com/watch?v=u5gN2fBzIUo"></a>><img src="pics/thumnale.jpg" width="500"></a>
-            <section class = "sketch_details">
-                <a href = "https://www.youtube.com/watch?v=u5gN2fBzIUo"></a>><h2>Prototype</h2></a>
-                <p>This video showcases much of the functionality for Vibe Check.</p>
-            </section>
-        </section>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-        <!--Hifi Prototype-->
-        <section class = "problem">
-            <a href = "docs/Vibe_Check-html"><img src="pics/proto.PNG" width="500"></a>
-            <a href = "docs/Vibe_Check-html"></a><h2>A Hi-Fi prototype of our app VibeCheck</h2></a>
-            <p></p>
-        </section>
-    </body>
+	</body>
 </html>
